@@ -1,0 +1,31 @@
+.flex{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.title p{
+    color: #AB2820;
+    font-size: 14px;
+}
+.title .item{
+    padding-left: 5px;
+    color: #8892B0;
+    text-align: center;
+    display: flex;
+}
+.icon{
+    color: #ab2820;
+    display: flex;
+    gap: 8px;
+    font-size: 15px;
+}

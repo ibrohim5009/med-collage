@@ -1,0 +1,38 @@
+.banner {
+  background-image: url('../image/bit.jpg');
+  background-size: cover; /* Ensures the image covers the entire area */
+  /* background-position: center; Centers the image */
+  width: 100%;
+  margin-top: -100px;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+
+.banner_title {
+  width: 1140px;
+  height: 169px;
+  text-align: left;
+  color: white;
+  font-size: 2em;
+  margin: 0px 105px;
+  padding: 0px 12px;
+  padding-top: 250px;
+}
+.banner_title h1{
+  color: #AB2820;
+  font-size: 48px;
+}
+.banner_title h2{
+  color: #AB2820;
+  font-size: 24px;
+}
+.banner_title button{
+  font-size: 14px;
+  border-radius: 50px;
+  padding: 12px 35px;
+  background-color: #AB2820;
+  border: none;
+  width: 228px;
+  height: 45px;
+  color: #FFFFFFFF;
+}

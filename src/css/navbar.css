@@ -1,0 +1,40 @@
+.navbar {
+  background:#000000c2;
+  opacity: .8;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-right:70px;
+}
+.logo{
+    width: 383px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.items{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo h1{
+    color: #fffFFFFf;
+}
+.items li{
+    list-style: none;
+}
+.items li a{  
+    text-decoration: none;
+    padding: 10px;
+    color: #8892B0;
+}
+.items li a:hover {
+    color: #FFC107;
+    text-decoration: underline white;
+}

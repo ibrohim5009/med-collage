@@ -1,0 +1,48 @@
+#contains {
+    background: #AB2820;
+    width: 416px;
+    height: 379px;
+    border-radius: 10px;
+}
+
+.contain {
+    width: 294px;
+    height: 379px;
+    background: #FFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.contain .i {
+    margin-top: 40px;
+    color: #AB2820;
+    width: 40px;
+    height: 41px;
+}
+.fleux {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    justify-content: space-around;
+}
+.contain h4{
+    font-size: 20px;
+    color: #8892B0;
+}
+.contain p{
+    margin: 10px;
+    font-size: 15px;
+    color: #848484;
+}
+.all {
+    margin-top: -150px;
+}
+#contains h3{
+    width: 356px;
+    height: 81px;
+
+    color: #FFFFFFFF;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 25px;
+}
