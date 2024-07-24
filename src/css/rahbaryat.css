@@ -1,0 +1,32 @@
+.aim{
+    box-shadow: 0px 5px 15px rgba(44, 73, 100, 0.08);
+    width: 650px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.scope{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    gap: 20px;
+}
+.rah{
+    text-align: center;
+    color: #AB2820;
+}
+.aim img{
+    border-radius:50% ;
+    object-fit: cover;
+    width: 135px;
+    height: 170px;
+}
+.dalni_data h4{
+    color: #848484;
+    font-size: 20px;
+}
+.dalni_data p{
+    color: #AB2820;
+}
+
