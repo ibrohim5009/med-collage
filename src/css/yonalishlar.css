@@ -1,0 +1,63 @@
+.yonalishlar {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.title_item {
+  color: #ab2820;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.avetsiy {
+  color: #ab2820;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navbarss {
+  flex: 1;
+  max-width: 200px;
+  margin-right: 20px;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.navbarss li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.navbarss li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+.navbarss li a.active {
+  color: #ab2820;
+  font-weight: bold;
+}
+
+.content {
+  flex: 3;
+  justify-content: space-around;
+  border-left: 1px solid #ab2820;
+  padding-left: 20px;
+}
+
+.tab-content {
+  max-width: 600px;
+}
+.h2{
+  color: #ab2820;
+}
+.p{
+  color: #9d322c;
+}
