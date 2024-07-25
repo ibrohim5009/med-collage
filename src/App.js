@@ -4,6 +4,7 @@ import Banner from './components/banner/Banner';
 import Section from './components/section/Section';
 import Header from './components/header/Header';
 import Testimonials from './components/testimonials/Testimonials';
+import ApplicationForm from './components/aplacation/Aplacation';
 
 
 class App extends Component {
@@ -15,7 +16,7 @@ class App extends Component {
       <Section/>
       <Header/>
       <Testimonials/>
-
+      <ApplicationForm/>
       </div>
     );
   }
