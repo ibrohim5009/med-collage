@@ -12,7 +12,7 @@ function Yonalishlar() {
             <h2 className='h2'>Hamshiralik ishi - 3 yil</h2>
             <p className='p'>O’qish muddati – 3 yillik</p>
             <p className='p'>O’qish kontrakti - 9 900 000 so’m</p>
-            <p className='p'>-Barcha davolash-profilaktika muassasalarida, QVP (qishloq vrachlik punkti) larda, tuman tibbiyot birlashmalari, viloyat va Respublika tibbiyot muassasalarida; - Respublika shoshilinch tibbiy yordam ilmiy markazi va uning filiallarida; - Nodavlat davolash muassasalarida ish faoliyatini olib boradilar.</p>
+            <p className='f'>-Barcha davolash-profilaktika muassasalarida, QVP (qishloq vrachlik punkti) larda, tuman tibbiyot birlashmalari, viloyat va Respublika tibbiyot muassasalarida; - Respublika shoshilinch tibbiy yordam ilmiy markazi va uning filiallarida; - Nodavlat davolash muassasalarida ish faoliyatini olib boradilar.</p>
           </div>
         );
       case 'hamshiralik-2':
@@ -21,7 +21,7 @@ function Yonalishlar() {
             <h2 className='h2'>Hamshiralik ishi - 2 yil</h2>
             <p className='p'>O’qish muddati – 2 yillik</p>
             <p className='p'>O’qish kontrakti - 7 500 000 so’m</p>
-            <p className='p'>- Barcha davolash-profilaktika muassasalarida, QVP (qishloq vrachlik punkti) larda, tuman tibbiyot birlashmalari, viloyat va Respublika tibbiyot muassasalarida ish faoliyatini olib boradilar.</p>
+            <p className='f'>- Barcha davolash-profilaktika muassasalarida, QVP (qishloq vrachlik punkti) larda, tuman tibbiyot birlashmalari, viloyat va Respublika tibbiyot muassasalarida ish faoliyatini olib boradilar.</p>
           </div>
         );
       case 'farmatsiya-3':
@@ -30,7 +30,7 @@ function Yonalishlar() {
             <h2 className='h2'>Farmatsiya - 3 yil</h2>
             <p className='p'>O’qish muddati – 3 yillik</p>
             <p className='p'>O’qish kontrakti - 9 500 000 so’m</p>
-            <p className='p'>- Barcha dorixonalar, farmatsevtika kompaniyalari va dori-darmon ishlab chiqaruvchi zavodlarda ish faoliyatini olib boradilar.</p>
+            <p className='f'>- Barcha dorixonalar, farmatsevtika kompaniyalari va dori-darmon ishlab chiqaruvchi zavodlarda ish faoliyatini olib boradilar.</p>
           </div>
         );
       case 'feldsherlik-3':
@@ -39,7 +39,7 @@ function Yonalishlar() {
             <h2 className='h2'>Fel'dsherlik ishi - 3 yil</h2>
             <p className='p'>O’qish muddati – 3 yillik</p>
             <p className='p'>O’qish kontrakti - 9 900 000 so’m</p>
-            <p className='p'>-Barcha davolash-profilaktika muassasalarida, QVP (qishloq vrachlik punkti) larda, tuman tibbiyot birlashmalari, viloyat va Respublika tibbiyot muassasalarida; - Respublika shoshilinch tibbiy yordam ilmiy markazi va uning filiallarida; - Nodavlat davolash muassasalarida ish faoliyatini olib boradilar.</p>
+            <p className='f'>-Barcha davolash-profilaktika muassasalarida, QVP (qishloq vrachlik punkti) larda, tuman tibbiyot birlashmalari, viloyat va Respublika tibbiyot muassasalarida; - Respublika shoshilinch tibbiy yordam ilmiy markazi va uning filiallarida; - Nodavlat davolash muassasalarida ish faoliyatini olib boradilar.</p>
           </div>
         );
       default:
