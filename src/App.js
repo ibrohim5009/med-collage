@@ -4,7 +4,7 @@ import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
 import Section from './components/section/Section';
 import Testimonials from './components/testimonials/Testimonials';
-import Login from './components/login/Login';
+import Carusel from './components/carusel/Carusel';
 
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
         <Section />
         <Header />
         <Testimonials />
-        <Login/>
+        <Carusel/>
       </div>
     );
   }
