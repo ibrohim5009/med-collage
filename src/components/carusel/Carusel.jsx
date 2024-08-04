@@ -1,6 +1,8 @@
+// Carusel.js
 import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Link } from 'react-router-dom';
 
 const Carusel = () => {
     const responsive = {
@@ -24,21 +26,25 @@ const Carusel = () => {
 
     const items = [
         {
+            id: 1,
             image: 'https://via.placeholder.com/150',
             title: 'News Item 1',
             description: 'Description for news item 1.'
         },
         {
+            id: 2,
             image: 'https://via.placeholder.com/150',
             title: 'News Item 2',
             description: 'Description for news item 2.'
         },
         {
+            id: 3,
             image: 'https://via.placeholder.com/150',
             title: 'News Item 3',
             description: 'Description for news item 3.'
         },
         {
+            id: 4,
             image: 'https://via.placeholder.com/150',
             title: 'News Item 4',
             description: 'Description for news item 4.'
@@ -47,15 +53,17 @@ const Carusel = () => {
 
     return (
         <div>
-            <Carousel responsive={responsive}   infinite={true} autoPlay={true}>
+            <Carousel responsive={responsive} infinite={true} autoPlay={true}>
                 {items.map((item, index) => (
                     <div key={index} style={{ padding: '10px' }}>
-                        <div style={{ borderRadius: '8px',textAlign:"center", overflow: 'hidden' }}>
-                            <img src={item.image} alt={item.title} style={{ width: '90%',height:'300px' }} />
-                            <div style={{ padding: '10px' }}>
-                                <h3>{item.title}</h3>
-                                <p>{item.description}</p>
-                            </div>
+                        <div style={{ borderRadius: '8px', textAlign: "center", overflow: 'hidden' }}>
+                            <Link to={`/news/${item.id}`}>
+                                <img src={item.image} alt={item.title} style={{ width: '90%', height: '300px' }} />
+                                <div style={{ padding: '10px' }}>
+                                    <h3>{item.title}</h3>
+                                    <p>{item.description}</p>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 ))}
