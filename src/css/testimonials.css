@@ -1,41 +1,60 @@
-.background{
+.background {
     background: #000000;
-    height: 260px;
+    height: auto;
+    padding: 40px 0;
 }
-.wrap{
+
+.wrap {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 60px;
+    gap: 20px;
 }
-.card{
+
+.card {
     text-align: center;
-    width: 330px;
+    width: 100%;
+    max-width: 330px;
     height: 130px;
     background: #FFFFFF;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
-.count_title{
+
+.count_title {
     margin-top: -35px;
 }
-.icon_count{
+
+.icon_count {
     color: #FFF;
     padding-top: 8px;
 }
-.ICONT{
+
+.ICONT {
     width: 50px;
     height: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 140px;
     background: #AB2820;   
     border-radius: 50%;
+    margin: 0 auto 10px;
 }
-.count_title h1{
+
+.count_title h1 {
     color: #082744;
 }
-.count_title p{
+
+.count_title p {
     color: #8892B0;
 }
-.center_div{
-    align-items: center;
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .wrap {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }

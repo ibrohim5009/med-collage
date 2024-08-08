@@ -1,71 +1,118 @@
-/* App.css */
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f8fa;
-    margin: 0;
-    padding: 0;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-header h2 {
+  margin: 0;
+  color: #4a4a4a;
+}
+
+.form-header p {
+  color: #909090;
+  margin: 5px 0;
+}
+
+.form-header img {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #4a4a4a;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #536dfe;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3f51b5;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
   .container {
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      margin: 30px auto;
+      padding: 15px;
   }
-  
-  .form-header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
+
   .form-header h2 {
-    margin: 0;
-    color: #4a4a4a;
+      font-size: 24px;
   }
-  
-  .form-header p {
-    color: #909090;
-    margin: 5px 0;
-  }
-  
+
   .form-header img {
-    width: 100px;
-    margin-top: 10px;
+      width: 80px;
   }
-  
-  .form-group {
-    margin-bottom: 15px;
+
+  button {
+      font-size: 14px;
+      padding: 8px;
   }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #4a4a4a;
+}
+
+@media (max-width: 480px) {
+  .container {
+      width: 100%;
+      margin: 20px auto;
+      padding: 10px;
   }
-  
+
+  .form-header h2 {
+      font-size: 20px;
+  }
+
+  .form-header p {
+      font-size: 14px;
+  }
+
   .form-group input,
   .form-group select {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+      padding: 8px;
   }
-  
+
   button {
-    width: 100%;
-    padding: 10px;
-    background-color: #536dfe;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+      font-size: 14px;
+      padding: 8px;
   }
-  
-  button:hover {
-    background-color: #3f51b5;
-  }
+}
   

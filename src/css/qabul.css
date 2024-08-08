@@ -75,16 +75,57 @@
 
 .faq-content {
     color: #9d322c;
-    line-height:25px;
+    line-height: 25px;
     font-size: 14px;
     margin-top: 10px;
 }
 
-.md{
+.md {
     color: #9d322c;
     font-size: 25px;
 }
-.io{
+
+.io {
     color: #9d322c;
     font-size: 25px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .document, .faq-item {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .titless {
+        font-size: 28px;
+    }
+
+    .subtitle, .faq-subtitle {
+        font-size: 14px;
+    }
+
+    .faq-title {
+        font-size: 28px;
+    }
+
+    .document h1, .faq-item h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titless {
+        font-size: 24px;
+    }
+
+    .subtitle, .faq-subtitle, .document h1, .faq-item h2 {
+        font-size: 12px;
+    }
+
+    .md, .io {
+        font-size: 20px;
+    }
 }

@@ -1,32 +1,78 @@
-.aim{
+.aim {
     box-shadow: 0px 5px 15px rgba(44, 73, 100, 0.08);
     width: 650px;
     height: 200px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
-.scope{
+
+.scope {
     margin-top: 70px;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-around;
     gap: 20px;
 }
-.rah{
+
+.rah {
     text-align: center;
     color: #AB2820;
 }
-.aim img{
-    border-radius:50% ;
+
+.aim img {
+    border-radius: 50%;
     object-fit: cover;
     width: 135px;
     height: 170px;
 }
-.dalni_data h4{
+
+.dalni_data h4 {
     color: #848484;
     font-size: 20px;
 }
-.dalni_data p{
+
+.dalni_data p {
     color: #AB2820;
 }
 
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .aim {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .aim img {
+        width: 100px;
+        height: 125px;
+    }
+
+    .scope {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dalni_data h4 {
+        font-size: 18px;
+    }
+
+    .dalni_data p {
+        font-size: 16px;
+    }
+
+    .rah {
+        font-size: 20px;
+    }
+
+    .aim img {
+        width: 80px;
+        height: 100px;
+    }
+}

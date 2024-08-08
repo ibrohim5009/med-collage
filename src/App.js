@@ -1,8 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import Navbar from './components/navbar/Navbar';
+import Auth from './components/auth/Auth';
 import NewsDetail from './components/carusel/CaruselDetail';
+import Navbar from './components/navbar/Navbar';
 
 const App = () => {
   return (
