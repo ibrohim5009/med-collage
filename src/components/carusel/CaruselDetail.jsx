@@ -1,4 +1,3 @@
-// NewsDetail.js
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
@@ -54,7 +53,7 @@ const styles = {
         margin: '0 auto',
         padding: '20px',
         fontFamily: 'Arial, sans-serif',
-        lineHeight: '1.6'
+        lineHeight: '1.6',
     },
     backButton: {
         display: 'inline-block',
@@ -90,5 +89,42 @@ const styles = {
         color: 'red'
     }
 };
+
+// Media queries for responsiveness
+const responsiveStyles = {
+    '@media (max-width: 768px)': {
+        container: {
+            padding: '10px',
+        },
+        backButton: {
+            padding: '8px 12px',
+            fontSize: '0.9rem'
+        },
+        title: {
+            fontSize: '1.5rem',
+        },
+        description: {
+            fontSize: '1rem',
+        }
+    },
+    '@media (max-width: 480px)': {
+        backButton: {
+            padding: '6px 10px',
+            fontSize: '0.8rem'
+        },
+        title: {
+            fontSize: '1.2rem',
+        },
+        description: {
+            fontSize: '0.9rem',
+        }
+    }
+};
+
+// Apply responsive styles
+Object.assign(styles.container, responsiveStyles['@media (max-width: 768px)'].container);
+Object.assign(styles.backButton, responsiveStyles['@media (max-width: 768px)'].backButton);
+Object.assign(styles.title, responsiveStyles['@media (max-width: 768px)'].title);
+Object.assign(styles.description, responsiveStyles['@media (max-width: 768px)'].description);
 
 export default NewsDetail;

@@ -52,9 +52,71 @@
 }
 
 /* Media queries for responsive design */
+@media (max-width: 1024px) {
+    .card {
+        max-width: 280px; /* Cardlarni kichikroq qilish */
+        height: auto; /* Avtomatik balandlik */
+        padding: 15px; /* Paddingni kamaytirish */
+    }
+
+    .wrap {
+        gap: 15px; /* Gapni biroz kamaytirish */
+    }
+
+    .ICONT {
+        width: 40px; /* ICONT ni kichikroq qilish */
+        height: 40px;
+    }
+
+    .count_title h1 {
+        font-size: 1.5rem; /* H1 ni kichikroq qilish */
+    }
+
+    .count_title p {
+        font-size: 0.9rem; /* P ni kichikroq qilish */
+    }
+}
+
 @media (max-width: 768px) {
     .wrap {
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+
+    .card {
+        max-width: 100%; /* Kenglikni 100% qilish */
+        height: auto;
+    }
+
+    .count_title h1 {
+        font-size: 1.25rem; /* H1 ni yana kichikroq qilish */
+    }
+
+    .count_title p {
+        font-size: 0.8rem; /* P ni kichikroq qilish */
+    }
+}
+
+@media (max-width: 480px) {
+    .background {
+        padding: 20px 0; /* Paddingni kamaytirish */
+    }
+
+    .card {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .ICONT {
+        width: 30px;
+        height: 30px;
+    }
+
+    .count_title h1 {
+        font-size: 1rem;
+    }
+
+    .count_title p {
+        font-size: 0.75rem;
     }
 }
